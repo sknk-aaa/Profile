@@ -1,0 +1,54 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 680px) {
+  .About h1{
+    margin-bottom:20px;
+  }
+  .person{
+    display:block;
+    text-align:center;
+  }
+  .text{
+    margin:0 auto;
+    width:70%;
+  }
+  .sentence{
+    text-align:left;
+  }
+  .Bicycle ul{
+  display:block;
+  }
+  .Bicycle li{
+  width:80%;
+  padding-bottom:10%;
+  margin:0 auto;
+}
+}
+
+/* スマートフォン向けレイアウト */
+@media all and (max-width: 500px){
+  h1{
+    font-size:24px;
+  }
+  header img{
+    width:25%;
+  }
+  header a{
+    margin:0 8px;
+  }
+
+  .text{
+    width:80%;
+  }
+  .name{
+    font-size:15px;
+  }
+   .sentence{
+    font-size:14px;
+  }
+  .Bicycle p{
+    font-size:14px;
+  }
+  footer{
+    font-size:9px;
+  }
+}
