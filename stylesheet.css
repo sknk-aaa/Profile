@@ -1,0 +1,112 @@
+body {
+  color: #383e45;
+  font-family: "Avenir Next";
+}
+a {
+  text-decoration: none;
+  color:black;
+}
+li {
+  list-style: none;
+}
+ul{
+  padding: 0;
+}
+img{
+  width:100%
+}
+
+/*=== header セクション ====*/
+header{
+  max-width:1180px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height:60px;
+  margin: 0 auto;
+}
+header img{
+  width:124px;
+  padding-left:5%
+}
+header ul{
+  display:flex;
+  padding-right:5%
+}
+ul a{
+  display:inline-block;
+  margin:0 30px;
+  opacity: 0.7;
+}
+header a :hover{
+  opacity:1;
+  transition: 0.3s;
+}
+
+/*=== top セクション ====*/
+
+
+
+/*=== About セクション ====*/
+.About{
+  text-align:center;
+  padding:50px 0;
+  margin:0 auto;
+}
+.About h1{
+  border-bottom:solid 1px black;
+  margin-bottom:50px;
+  display:inline-block;
+}
+.About img{
+  border-radius:50%;
+  width:124px;
+  margin:30px;
+}
+.person{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align:left;
+}
+.name{
+  padding-bottom:20px;
+  font-weight:bold;
+}
+.text{
+  width:40%;
+}
+
+/*=== Bicycle セクション ====*/
+.Bicycle{
+  text-align:center;
+  margin-bottom:70px;
+  margin:0 5%;
+  width:100%;
+  margin:0 auto;
+}
+.Bicycle h1{
+  border-bottom:solid 1px black;
+  margin-bottom:50px;
+  display:inline-block;
+}
+.Bicycle ul{
+  display:flex;
+  justify-content: center;
+  gap: 1%;
+  
+}
+.Bicycle li{
+  width:30%;
+}
+
+.Bicycle p{
+  font-size: 100%;
+}
+
+/*=== footer セクション ====*/
+footer{
+  font-size:12px;
+  text-align:center;
+  margin-bottom:10px;
+}
